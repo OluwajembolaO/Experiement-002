@@ -1,0 +1,42 @@
+/*#button{
+ position:relative;
+  float:right;
+}*/
+html, body {
+  height: 100%;
+  width: 100%;
+}
+th,td{
+  background-color:#000000;
+border:2px White solid;
+border-collapse:none;
+font-family:fantasy,monospace;
+}
+a{
+  color:White;
+}
+table{
+  margin:auto;
+}
+.child-div{
+  position:absolute;
+  right:85hv;
+  border:2px;
+  border-color:purple;
+visibility: hidden;
+}
+.div-1{
+  position:relative;
+}
+.div-2{
+  position:relative;
+}
+.child-div2{
+  position:absolute;
+  right:85hv;
+  border:2px;
+  border-color:purple;
+  visibility:hidden;
+
+}
+
