@@ -1,0 +1,18 @@
+.WLO{
+  color:White;
+  text-transform:uppercase;
+  text-align:center;
+  font-size:45px;
+  background-color:#7d620a;
+  margin:0px;
+}
+h2{
+  color:white;
+}
+ body{
+      border:10px;
+   border-style:solid;
+      border-color:orange;
+     background-image: linear-gradient( to bottom,#11a62c, #cfac3a);
+   margin:0px;
+    }

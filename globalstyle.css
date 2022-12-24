@@ -1,22 +1,25 @@
-/*#button{
- position:relative;
-  float:right;
-}*/
-html, body {
-  height: 100%;
-  width: 100%;
-}
 th,td{
   background-color:#000000;
 border:2px White solid;
-border-collapse:none;
-font-family:fantasy,monospace;
+border-collapse:seperate;
+font-family:monospace;
 }
 a{
   color:White;
 }
+button.buttons{
+  background-color:blue;
+  border-radius:50%;
+  padding:0px;
+  shape-margin:10px;
+}
 table{
+  background-color:White;
   margin:auto;
+}
+th:hover{
+  background-color:#494b4f;
+  
 }
 .child-div{
   position:absolute;

@@ -1,0 +1,15 @@
+.animals{
+    color:White;
+  text-transform:uppercase;
+  text-align:center;
+  font-size:45px;
+  background-color:#df9901;
+  margin:0px;
+}
+ body{
+      border:10px;
+   border-style:solid;
+      border-color:orange;
+     background-image: linear-gradient( to bottom,#b38c00, #663905);
+   margin:0px;
+    }
