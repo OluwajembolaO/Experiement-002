@@ -1,0 +1,51 @@
+.awareness{
+  text-transform:uppercase;
+  text-align:center;
+  font-size:45px;
+  background-color:#3D7251; 
+  color: white;
+  margin:0px;
+ 
+}
+.awareness {
+
+    animation: colorChange 3s 1; 
+  animation-fill-mode: forwards;
+}
+
+@keyframes colorChange {
+  0% {
+    color: white;
+    background-color:#3D7251;
+  }
+  100% {
+    color: red;
+    background-color:black;
+  }
+}
+body{
+      border:10px;
+   border-style:solid;
+      border-color:orange;
+     color: linear-gradient( to bottom,#11a62c, #cfac3a);
+   margin:0px;
+    }
+body{
+  animation:bodyColorChange 3s 1;
+  animation-fill-mode: forwards;
+}
+@keyframes bodyColorChange {
+  0% {
+    background-color: white;
+    border-color:orange;
+}
+  100% {
+    background-color:black;
+    border-color:red;
+  }
+}
+
+h2{
+  color:white;
+}
+ 

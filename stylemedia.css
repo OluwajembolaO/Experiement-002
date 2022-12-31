@@ -1,0 +1,16 @@
+.media{
+    color:White;
+  text-transform:uppercase;
+  text-align:center;
+  font-size:45px;
+  background-color:#c1af3e;
+  margin:0px;
+}
+body{  
+  border:10px;
+   border-style:solid;
+      border-color:#cdb198;
+     background-image: linear-gradient( to bottom,white,yellow, red, pink);
+  margin:0px;
+}
+  
