@@ -36,7 +36,7 @@ body{
 }
 @keyframes bodyColorChange {
   0% {
-    background-color: white;
+    background-color: #A5C90F;
     border-color:orange;
 }
   100% {
@@ -44,7 +44,43 @@ body{
     border-color:red;
   }
 }
-
+th,td{
+  background-color:#000000;
+border:2px White solid;
+border-collapse:seperate;
+font-family:monospace;
+}
+th, td{  
+  animation:tableColorChange 3s 1;
+  animation-fill-mode: forwards;
+  
+}
+@keyframes tableColorChange {
+  0% {
+    border-color:white;
+    color:white;
+}
+  100% {
+    border-color:red;
+    color:red;
+  }
+}
+table{
+  background-color:White;
+  margin:auto;
+}
+table{
+ animation:tableOuterColorChange 3s 1;
+  animation-fill-mode: forwards;
+}
+@keyframes tableOuterColorChange {
+  0% {
+    background-color:white;
+}
+  100% {
+    background-color:red;
+  }
+}
 h2{
   color:white;
 }

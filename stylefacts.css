@@ -1,0 +1,15 @@
+.facts{
+  color:White;
+  text-transform:uppercase;
+  text-align:center;
+  font-size:45px;
+  background-color:#e58fc6;
+  margin:0px;
+}
+body{
+      border:10px;
+   border-style:solid;
+      border-color:#d9ff1a;
+     background-image: linear-gradient( to bottom,#faffb3 50%,#ffc7ea 75%, #f28888 100%);
+   margin:0px;
+    }
