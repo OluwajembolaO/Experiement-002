@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+   <meta name="viewport" content="height=device-height">
   <title>Plants</title>
   <link href="styleplants.css" rel="stylesheet" type="text/css" />
   <link href="globalstyle.css" rel="stylesheet" type="text/css" />
@@ -22,6 +23,11 @@ class="buttons" onclick="myFunction()"><img class="imageb" style="border-radius:
   <tr>
     <th>
     <a href ="index.html">Homepage</a>
+    </th>
+  </tr>
+  <tr>
+    <th>
+      <a id="Plant#" href ="#">Plants</a>
     </th>
   </tr>
   <tr>
@@ -62,6 +68,42 @@ function myFunction() {
   }
 }
 </script>
+  <script>
+  document.getElementById('Plant#').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent the default link behavior
+    alert('You are already on this page');
+  });
+</script>
+  <br>
+  <h1>The Life of Plants</h1>
+  <p class="theLifeOfPlants">Plants are organisms that are very different unlike the human and animal species. Some plants live and grow in the water, and some plants can grow in soil. Even some plants can grow in soil and water. Talk about that!!! Every plant is unique,this is because most plants look different due to the biomes they are located in. Some plants even do very cool things!</p>
+<br>
+  <h1> Types of Plants </h1>
+  <br>
+<section class="poisonIvy"> <h1 class="pI">Poison Ivy</h1>
+  <img 
+ class="pII"src="https://medlineplus.gov/images/PoisonIvy_share.jpg" alt="Poison Ivy">
+  <br>
+  <div class="aboutPoisonIvy"><p>This is a plant called Poison Ivy. This plant contains a special compound called urushiol. Urushiol is a light, colorless oil that is found all around the plant. When exposed to oxygen, the urushiol turns black, leaving black spots around the plant. Even though this seems very cool, Urushiol is very dangerous as it is poisonous to people. Touching poison ivy can cause severe rashes, that could be really itchy! Consuming this can cause alot of organs to be damaged. </p></div>
+</section>
+  <section class="venusFlyTrap">
+    <h1 class="vFT">Venus Fly Trap</h1>
+    <img class="vFTP" src="https://m.media-amazon.com/images/I/51mW-hJGqTL._AC_SY350_.jpg" alt="Venus Fly Trap">
+    <br>
+   <div class="aboutVenusFlyTrap"> <p>This is a plant called the Venus Fly Trap. This plant is higly known as the name Venus Fly Trap for its ability to eat insects. To attract insects, it makes a fruit-like scent. When the insect then touches the plants leaves, it starts a responce to the trigger hairs on the line of the leaf. Then the Venus Fly Trap will close its leafs tightly. The plant will then secrete fluids that will soften the prey, and kill any bacteria in order for it to extract nutrients.</p></div>
+  </section>
+  <section class="rafflesiaFlower">
+    <h1 class="rF">Rafflesia Flower</h1>
+    <img class="rFP" src="https://cdn.audleytravel.com/490/350/79/51560-rafflesia-flower-in-malaysian-borneo.webp">
+    <br>
+   <div class="aboutRafflesiaFlower"> <p>This plant is called the Rafflesia Flower. It is a very unique flower that is usually located in Indonesia. The Rafflesia Flower is usually known for its humongous size. This flower can be over 3ft tall, weighing over 20lbs!!! Unlike other flowers, the Rafflesia Flower depends on a vine to survive, meaning that it lives a parasitic lifestyle. This plant is often difficult to find outside of native area which can further lead to extinction </p></div>
+  </section>
+
+  <footer>
+    <br>
+<h1>Conclusion</h1>
+    <p class="conclusion">These were some of the plants that I wanted to research about. As you can see each plant has their own unique features, which is what makes them special. This was only a speck of the varieties of plants there are, so feel free to do research on them!!! </p>
+  </footer>
 
 
 

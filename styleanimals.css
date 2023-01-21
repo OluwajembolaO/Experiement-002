@@ -13,3 +13,94 @@
      background-image: linear-gradient( to bottom,#b38c00, #663905);
    margin:0px;
     }
+p{
+  font-size:23px;
+}
+h1{
+  font-size:37px;
+}
+.theLifeOfAnimals{
+  margin-left:40px;
+}
+.polarBears{
+  text-align:center;
+}
+.pB{
+  color:black;
+transition:all .5s linear;
+}
+.pB:hover{
+  color:#7ce1ee;
+}
+.pBI{
+   border:10px groove;
+ height:275px;
+ width:275px;
+  border-left-color:#935f06;
+  border-bottom-color:#935f06;
+  border-right-color:#935f06;
+  border-top-color:#935f06;
+  transition:all .17s linear;
+}
+.pBI:hover{
+   border-left-color:#7ce1ee;
+  border-bottom-color:#7ce1ee;
+  border-right-color:#7ce1ee;
+  border-top-color:#7ce1ee;
+}
+.mInfo{
+  margin-left:40px;
+}
+.pBInfo{
+  color:#ffffff;
+  background-color:black;
+border:ridge 8px white;
+  transition:all .5s linear;
+}
+.pBInfo.pBInfo:hover{
+  color:#7ce1ee;
+border-color:#7ce1ee;
+}
+.Kanines{
+  text-align:center;
+}
+.dogs{
+  color:black;
+  transition: all .5s linear;
+}
+.dogs:hover{
+  color:#cee901;
+}
+.dI{
+   border:10px groove;
+ height:275px;
+ width:275px;
+  border-left-color:#935f06;
+  border-bottom-color:#935f06;
+  border-right-color:#935f06;
+  border-top-color:#935f06;
+  transition:all .17s linear;
+}
+.dI:hover{
+   border-left-color:#cee901;
+  border-bottom-color:#cee901;
+  border-right-color:#cee901;
+  border-top-color:#cee901;
+}
+
+.dInfo{
+  color:#ffffff;
+  background-color:black;
+border:ridge 8px white;
+  transition:all .5s linear;
+}
+.dInfo:hover{
+  color:#cee901;
+border-color:#cee901;
+}
+
+
+
+.concluded{
+  margin-left:40px;
+}

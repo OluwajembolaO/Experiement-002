@@ -3,9 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="height=device-height">
   <title>Animals</title>
+  <link href="styleanimals.css" rel="stylesheet" type="text/css" />
   <link href="globalstyle.css" rel="stylesheet" type="text/css" />
-   <link href="styleanimals.css" rel="stylesheet" type="text/css" />
+
 </head>
 
 <body>
@@ -29,6 +31,11 @@
   <tr>
     <th>
      <a href="plants.html">Plants</a>
+    </th>
+  </tr>
+   <tr>
+    <th>
+     <a id="Animal#" href="#">Animals</a>
     </th>
   </tr>
    <tr>
@@ -63,8 +70,46 @@ function myFunction() {
     x.style.visibility = 'hidden';
   }
 }
+  </script>
+<script>
+  document.getElementById('Animal#').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent the default link behavior
+    alert('You are already on this page');
+  });
 </script>
+<br>
+  <section class="heading">
+    <h1>Life of Animals</h1>
+  </section>
+  <section>
+    <p class="theLifeOfAnimals">Animals are alot different from plants. All animals don't look alike. Some animals evolve over a long course of time. All animals have unique, special abilites that help them survive their habitat. Even we humans are considered humans. Every animal is placed into different categories depending on the certain feature of that animal. Animals can be put into categories of mammals, fish, birds, reptiles, and amphibians.</p>
+     </section>
 
+  <section class="Mammals">
+    <h1>Mammals</h1>
+<p class="mInfo">Mammals are animals who classifiy as vertbrates. They are warm-blooded and have hair. The female also must have the ability to feed the young milk from the special memmary glands. Some exsamples of mammals are...</p>
+  </section>
+  <br>
+  <section class="polarBears">
+    <h1 class="pB">Polar Bears</h1>
+    <img class="pBI" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg" alt="Polar Bear">
+   <div class="pBInfo"> <p>Polar Bears are mammals that live in the Artic. They adapt to the Artic by having thick insulated fur. Under the layer of fur, they still have a warming layer of fat. This helps them stay warm in the harsh cold enviroment. Young polar bears known as cubs, are born blind, with short amount of hair. They usually stay with their mothers for 2 1/2 years before they separate from their mother. </p>
+   </div>
+  </section>
+  <br>
+   <section class="Kanines">
+    <h1 class="dogs">Dogs</h1>
+    <img class="dI" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=0.672xw:1.00xh;0.166xw,0&resize=640:*" alt="Dog">
+   <div class="dInfo"> <p>Dogs are mammals that have many different varients. They are often known for being special companions to us. Dogs also can smell up to 40 times more than humans. However, they tend to not see as well. The dog above is called a Golden Retriever. They are usually known for being very playful and friendly.</p>
+   </div>
+  </section>
+<br>
+  <section class="conclusion">
+  <h1>Conclusion</h1>  
+    <p class="concluded">These were a small amount of the animals that we know today. There are many other animals that we can learn about. If you liked this topic, you can go reasearch some more animals that you want to learn about! </p>
+  </section>
+  
+    
 
 
   

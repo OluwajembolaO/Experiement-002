@@ -51,6 +51,10 @@
     <th>
      <a href="awareness.html">Awareness</a>
     </th>
+  </tr> <tr>
+    <th>
+     <a id="Fact#" href="#">Facts</a>
+    </th>
   </tr>
   </tr>
 </table></div>
@@ -65,9 +69,36 @@ function myFunction() {
   }
 }
 </script>
+   <script>
+  document.getElementById('Fact#').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent the default link behavior
+    alert('You are already on this page');
+  });
+</script>
+<h1>
+ Fun Facts
+</h1>
+  <ul>
+  <li class="factList">
+  Squirrels are responsible for planting thousands of trees worldwide
+</li>
+  <li class="factList">
+ Ducks love to surf
+</li>
+  <li class="factList">A cat's meow is a form of communication with humans only, not other cats
+    </li>
+  <li class="factList">
+    Baby elephants self-soothe by sucking their trunk </li>
+  <li class="factList">
+      An octopus has three hearts, nine brains, and blue blood</li>
+  <li class="factList">
+  Male seahorses give birth to their young</li>
+  <li class="factList">  Penguins propose to each other with pebbles
 
+  </li>
 
-
+    
+</ul>
   
 </body>
 

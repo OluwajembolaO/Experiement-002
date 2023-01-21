@@ -13,4 +13,135 @@ body{
      background-image: linear-gradient( to bottom,#F1DA7A, #3A74D8);
   margin:0px;
 }
-  
+h1{
+  font-size:35px;
+}
+p{
+  font-size:23px;
+}
+  .tOB{
+    color:black;
+  transition:all .5s linear;
+  }
+.toB:hover{
+  color:#7ce1ee;
+}
+.RushHour{
+  text-align: center;
+}
+.tI{
+   border:10px groove white;
+ height:275px;
+ width:275px;
+  border-left-color:#049504;
+  border-bottom-color:#049504;
+  border-right-color:#049504;
+  border-top-color:#049504;
+  transition:all .17s linear;
+}
+.tI:hover{
+   border:10px groove white;
+ height:275px;
+ width:275px;
+  border-left-color:#7ce1ee;
+  border-bottom-color:#7ce1ee;
+  border-right-color:#7ce1ee;
+  border-top-color:#7ce1ee;
+  transition:all .17s linear;
+}
+
+.TInfo{
+    color:#ffffff;
+  background-color:black;
+border:ridge 8px white;
+  transition:all .5s linear;
+}
+.TInfo:hover{
+  color:#7ce1ee;
+  border-color:#7ce1ee;
+}
+.TT{
+  color:black;
+    transition:all .5s linear;
+}
+.TT:hover{
+  color:#7ce1ee;
+}
+.FI{ 
+  border:10px groove white;
+ height:275px;
+ width:275px;
+  border-left-color:#049504;
+  border-bottom-color:#049504;
+  border-right-color:#049504;
+  border-top-color:#049504;
+  transition:all .17s linear;
+}
+.FI:hover{
+   border:10px groove white;
+ height:275px;
+ width:275px;
+  border-left-color:#2c5908;
+  border-bottom-color:#2c5908;
+  border-right-color:#2c5908;
+  border-top-color:#2c5908;
+  transition:all .17s linear;
+}
+.FInfo{
+    color:#ffffff;
+  background-color:black;
+border:ridge 8px white;
+  transition:all .5s linear;
+}
+.FInfo:hover{
+  color:#2c5908;
+  border-color:#2c5908;
+}
+.AI{ 
+  border:10px groove white;
+ height:275px;
+ width:275px;
+  border-left-color:#049504;
+  border-bottom-color:#049504;
+  border-right-color:#049504;
+  border-top-color:#049504;
+  transition:all .17s linear;
+}
+.AI:hover{
+   border:10px groove white;
+ height:275px;
+ width:275px;
+  border-left-color:#0095b3;
+  border-bottom-color:#0095b3;
+  border-right-color:#0095b3;
+  border-top-color:#0095b3;
+  transition:all .17s linear;
+}
+.AInfo{
+  color:#ffffff;
+  background-color:black;
+border:ridge 8px white;
+  transition:all .5s linear;
+}
+.AInfo:hover{
+color:#0095b3;
+  border-color:#0095b3;  
+}
+.conclude{
+margin-left:40px;
+
+}
+.FF{
+  color:black;
+    transition:all .5s linear;
+}
+.FF:hover{
+  color:#2c5908;
+}
+.AA{
+  color:black;
+    transition:all .5s linear;
+}
+.AA:hover{
+  color:#0095b3;
+}

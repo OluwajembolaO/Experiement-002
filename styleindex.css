@@ -6,8 +6,12 @@
   background-color:#3D7251;
   margin:0px;
 }
-h2{
-  color:white;
+h1{
+  color:white; 
+}
+p{
+  color:White;
+  font-size:27px;
 }
  body{
       border:10px;

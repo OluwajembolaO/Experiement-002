@@ -13,5 +13,124 @@ body{
      background-image: linear-gradient( to bottom,#09d3b1, #035909);
   margin:0px;
 }
-  
-    
+p{
+  font-size:23px;
+}
+.theLifeOfPlants{
+  margin-left: 40px;
+}
+.pI{
+  color:black;
+  transition:all .5s linear;
+}
+.pI:hover{
+  color:#8c088c;
+}
+.poisonIvy{
+  text-align:center;
+}
+.venusFlyTrap{
+  text-align:center;
+}
+
+.pII{
+ border:10px groove white;
+ height:275px;
+ width:275px;
+  border-left-color:#049504;
+  border-bottom-color:#049504;
+  border-right-color:#049504;
+  border-top-color:#049504;
+  transition:all .17s linear;
+}
+
+img.pII:hover{
+   border-left-color:#8c088c;
+  border-bottom-color:#8c088c;
+  border-right-color:#8c088c;
+  border-top-color:#8c088c;
+}
+
+.aboutPoisonIvy{
+  color:#ffffff;
+  background-color:black;
+border:ridge 8px white;
+  transition:all .5s linear;
+}
+.aboutPoisonIvy:hover{
+  color:#8c088c;
+  border-color:#8c088c;
+}
+.vFTP{
+   border:10px groove white;
+ height:275px;
+ width:275px;
+  border-left-color:#049504;
+  border-bottom-color:#049504;
+  border-right-color:#049504;
+  border-top-color:#049504;
+  transition:all .17s linear;
+}
+img.vFTP:hover{
+   border-left-color:#8c0848;
+  border-bottom-color:#8c0848;
+  border-right-color:#8c0848;
+  border-top-color:#8c0848;
+}
+.aboutVenusFlyTrap{
+  color:#ffffff;
+  background-color:black;
+border:ridge 8px white;
+  transition:all .5s linear;
+}
+.aboutVenusFlyTrap:hover{
+  color:#8c0848;
+  border-color:#8c0848;
+}
+.vFT{
+  color:black;
+  transition:all .5s linear;
+}
+.vFT:hover{
+  color:#6e0739;
+}
+
+.rafflesiaFlower{
+  text-align:center;
+}
+.rFP{
+   border:10px groove white;
+ height:275px;
+ width:275px;
+  border-left-color:#049504;
+  border-bottom-color:#049504;
+  border-right-color:#049504;
+  border-top-color:#049504;
+  transition:all .17s linear;
+}
+img.rFP:hover{
+   border-left-color:#6b0015;
+  border-bottom-color:#6b0015;
+  border-right-color:#6b0015;
+  border-top-color:#6b0015;
+}
+.aboutRafflesiaFlower{
+  color:#ffffff;
+  background-color:black;
+border:ridge 8px white;
+  transition:all .5s linear;
+}
+.aboutRafflesiaFlower:hover{
+  color:#bf0329;
+  border-color:#bf0329;
+}
+.rF{
+  color:black;
+  transition:all .5s linear;
+}
+.rF:hover:hover{
+  color:#6b0015;
+}
+.conclusion{
+  margin-left:40px;
+}

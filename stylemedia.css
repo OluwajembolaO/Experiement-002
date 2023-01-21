@@ -13,4 +13,18 @@ body{
      background-image: linear-gradient( to bottom,white,yellow, red, pink);
   margin:0px;
 }
+h1{
+  font-size: 37px;
+}
+p{
+  font-size: 23px;
+}
+.mediaStuff{
+  text-align: center;
+}
+.caption{
+    color:#ffffff;
+  background-color:black;
+border:ridge 8px white;
+}
   

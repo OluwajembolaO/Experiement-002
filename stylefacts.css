@@ -13,3 +13,18 @@ body{
      background-image: linear-gradient( to bottom,#faffb3 50%,#ffc7ea 75%, #f28888 100%);
    margin:0px;
     }
+h1{
+  color:pink;
+}
+ol, ul, li{
+  color:#9a2d3f;
+  font-size:22px;
+}
+.factList{
+  color:#df3a55;
+  transition:all .25s linear;
+    }
+.factList:hover{
+  color:#af0d0d;
+  font-size:26px;
+}

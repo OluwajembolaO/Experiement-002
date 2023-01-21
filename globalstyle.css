@@ -6,6 +6,10 @@ font-family:monospace;
 }
 a{
   color:White;
+  text-decoration:none;
+}
+a[href="#"]{
+  color:yellow
 }
 button.buttons{
   background-color:blue;
@@ -42,4 +46,3 @@ visibility: hidden;
   visibility:hidden;
 
 }
-

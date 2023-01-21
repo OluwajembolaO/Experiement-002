@@ -81,7 +81,31 @@ table{
     background-color:red;
   }
 }
-h2{
+h1, p{
+ animation:tableOuterColorChange 3s 1;
+  animation-fill-mode: forwards;
+}
+@keyframes tableOuterColorChange {
+  0% {
+    color:white;
+}
+  100% {
+    color:red;
+  }
+}
+h1{
+  font-size: 37px;
   color:white;
+}
+p{
+  font-size: 23px;
+  color:white;
+}
+.Stats{
+text-align:center;
+}
+.AwarenessInfo{
+  background-color:black;
+ border:ridge 8px red;
 }
  
